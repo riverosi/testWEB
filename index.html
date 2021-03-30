@@ -1,131 +1,112 @@
 <!DOCTYPE html>
-<head>    
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    
-        <script>
-            L_NO_TOUCH = false;
-            L_DISABLE_3D = false;
-        </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_38d837a2045047d499953e60450088d4 {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-            </style>
-        
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Scrolling Nav - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
 </head>
-<body>    
-    
-            <div class="folium-map" id="map_38d837a2045047d499953e60450088d4" ></div>
-        
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Welcome to Scrolling Nav</h1>
+      <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>About this page</h2>
+          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+          <ul>
+            <li>Clickable nav links that smooth scroll to page sections</li>
+            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Services we offer</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact us</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
 </body>
-<script>    
-    
-            var map_38d837a2045047d499953e60450088d4 = L.map(
-                "map_38d837a2045047d499953e60450088d4",
-                {
-                    center: [-38.416097, -63.616672],
-                    crs: L.CRS.EPSG3857,
-                    zoom: 4,
-                    zoomControl: true,
-                    preferCanvas: false,
-                }
-            );
 
-            
-
-        
-    
-            var tile_layer_72ed3b6b4c5844e18f11ef00cece1669 = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_38d837a2045047d499953e60450088d4);
-        
-    
-            var marker_a25084c5faed493d82f16eef9b65c725 = L.marker(
-                [-34.61315, -58.37723],
-                {}
-            ).addTo(map_38d837a2045047d499953e60450088d4);
-        
-    
-        var popup_a3b5f2409e044f0fb8e252b5a5bd948f = L.popup({"maxWidth": "100%"});
-
-        
-            var html_2b5ec051ab564edbb49621982871bed0 = $(`<div id="html_2b5ec051ab564edbb49621982871bed0" style="width: 100.0%; height: 100.0%;">Min: $50000   Max: 80000</div>`)[0];
-            popup_a3b5f2409e044f0fb8e252b5a5bd948f.setContent(html_2b5ec051ab564edbb49621982871bed0);
-        
-
-        marker_a25084c5faed493d82f16eef9b65c725.bindPopup(popup_a3b5f2409e044f0fb8e252b5a5bd948f)
-        ;
-
-        
-    
-    
-            marker_a25084c5faed493d82f16eef9b65c725.bindTooltip(
-                `<div>
-                     <i>$77300 , 6 personas</i>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_44b0e43b103f404da12b4fd44370271f = L.marker(
-                [-31.4135, -64.18105],
-                {}
-            ).addTo(map_38d837a2045047d499953e60450088d4);
-        
-    
-        var popup_9f2001bd2f34417793f84aecaf37881c = L.popup({"maxWidth": "100%"});
-
-        
-            var html_4e5cbbf2f23a47679024cba9d3fcc43f = $(`<div id="html_4e5cbbf2f23a47679024cba9d3fcc43f" style="width: 100.0%; height: 100.0%;">Min: $53500   Max: 72300</div>`)[0];
-            popup_9f2001bd2f34417793f84aecaf37881c.setContent(html_4e5cbbf2f23a47679024cba9d3fcc43f);
-        
-
-        marker_44b0e43b103f404da12b4fd44370271f.bindPopup(popup_9f2001bd2f34417793f84aecaf37881c)
-        ;
-
-        
-    
-    
-            marker_44b0e43b103f404da12b4fd44370271f.bindTooltip(
-                `<div>
-                     $67300 , 1 personas</i>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var layer_control_4c28b45f6aff48a6bd84e8039c47731b = {
-                base_layers : {
-                    "openstreetmap" : tile_layer_72ed3b6b4c5844e18f11ef00cece1669,
-                },
-                overlays :  {
-                },
-            };
-            L.control.layers(
-                layer_control_4c28b45f6aff48a6bd84e8039c47731b.base_layers,
-                layer_control_4c28b45f6aff48a6bd84e8039c47731b.overlays,
-                {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_38d837a2045047d499953e60450088d4);
-        
-</script>
+</html>
