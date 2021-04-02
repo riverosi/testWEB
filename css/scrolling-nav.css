@@ -13,7 +13,7 @@ section {
 
 iframe {
   border: none;
-  width: 1000px;
+  width: 100%;
   height: 1000px;
   margin: 0 auto;
   display: block;
